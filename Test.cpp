@@ -10,7 +10,6 @@ int main()
     for (int i = 1; i < 1000; i++){
 
         int x;
-        std::cout << "";
         std::cin >> x;
 
         if (x == 23) {
@@ -22,9 +21,7 @@ int main()
         } else if (x > 23) {
             std::cout << "Too high. Try again.\n";
             std::cout << "?";
-        } else {
-            std::cout << "Invalid Input";
-        }
+        } 
 
     }
     
